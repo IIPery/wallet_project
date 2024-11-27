@@ -1,0 +1,7 @@
+from wallet.models import Wallet
+wallet = Wallet.objects.create(balance=1000.00)
+print(wallet.uuid)
+
+docker compose exec web bash
+cd wallet_project
+python manage.py shell
