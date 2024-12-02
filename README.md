@@ -13,7 +13,7 @@ git clone https://github.com/IIPery/wallet_project
 ```
 2. Перейти в каталог проекта
 ```shell
-cd wallet_project
+cd project_repository
 ```
 3. Запустить контейнеры
 ```shell
